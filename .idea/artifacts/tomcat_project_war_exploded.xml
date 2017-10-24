@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="tomcat_project:war exploded">
+    <output-path>$PROJECT_DIR$/target/FirstProject</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="the_most_firstly_tomcat_project" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/FirstProject/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="the_most_firstly_tomcat_project/web/Web" />
+    </root>
+  </artifact>
+</component>
